@@ -13,6 +13,8 @@
 		5248687A294608BC00507EBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52486878294608BC00507EBC /* Main.storyboard */; };
 		5248687C294608BF00507EBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5248687B294608BF00507EBC /* Assets.xcassets */; };
 		5248687F294608BF00507EBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5248687D294608BF00507EBC /* LaunchScreen.storyboard */; };
+		53CC29BD294621D4005B661A /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CC29BC294621D4005B661A /* Network.swift */; };
+		53CC29BF29462350005B661A /* GithubSearchResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CC29BE29462350005B661A /* GithubSearchResponseModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		5248687B294608BF00507EBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5248687E294608BF00507EBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52486880294608BF00507EBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53CC29BC294621D4005B661A /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		53CC29BE29462350005B661A /* GithubSearchResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubSearchResponseModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		52486871294608BC00507EBC /* github-example */ = {
 			isa = PBXGroup;
 			children = (
+				53CC29BB294621C8005B661A /* Network */,
 				52486872294608BC00507EBC /* AppDelegate.swift */,
 				52486874294608BC00507EBC /* SceneDelegate.swift */,
 				52486876294608BC00507EBC /* ViewController.swift */,
@@ -65,6 +70,15 @@
 				52486880294608BF00507EBC /* Info.plist */,
 			);
 			path = "github-example";
+			sourceTree = "<group>";
+		};
+		53CC29BB294621C8005B661A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				53CC29BC294621D4005B661A /* Network.swift */,
+				53CC29BE29462350005B661A /* GithubSearchResponseModel.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +154,8 @@
 			files = (
 				52486877294608BC00507EBC /* ViewController.swift in Sources */,
 				52486873294608BC00507EBC /* AppDelegate.swift in Sources */,
+				53CC29BF29462350005B661A /* GithubSearchResponseModel.swift in Sources */,
+				53CC29BD294621D4005B661A /* Network.swift in Sources */,
 				52486875294608BC00507EBC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
